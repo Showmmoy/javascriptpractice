@@ -1,0 +1,9 @@
+.ques{
+    padding: 10px 20px;
+    background-color: teal;
+}
+.ans{
+    display: none;
+    padding: 10px 20px;
+    background-color: lightcoral;
+}

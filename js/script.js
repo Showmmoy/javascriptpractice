@@ -70,3 +70,24 @@ $(document).ready(function(){
         alert("Hello World!");
     })
 })
+// Jquery Example 2
+$(document).ready(function(){
+    $("#show").on('click', function(){
+        $(".tcontent").show();
+    })
+    $("#hide").on('click', function(){
+        $(".tcontent").hide();
+    })
+    $("#toggle").on('click', function(){
+        $(".tcontent").toggle();
+    })
+    $("#fade").on('click', function(){
+        $(".tcontent").fadeToggle(1000);
+    })
+})
+$(document).ready(function(){
+    
+        $('.ques').on('click', function(){
+            $('.ans').slideToggle(1000);
+        });
+    });
