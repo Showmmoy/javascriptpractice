@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slick slider</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/fashionlogo-removebg-preview.png" alt="logo" width="100px" height="100px">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Fashion Hub</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+       <div class="banner-area">
+        <div class="single-banner">
+            <div class="banner-img img1"></div>
+            <div class="banner-text">
+                <h2>Women's <span>fashion</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore?</p>
+                <p class="banner-btn"><a href="#">Contact us</a></p>
+            </div>
+        </div>
+
+        <div class="single-banner">
+            <div class="banner-img img2"></div>
+            <div class="banner-text">
+                <h2>Amazing <span>Design</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore?</p>
+                <p class="banner-btn"><a href="#">Contact us</a></p>
+            </div>
+        </div>
+
+        <div class="single-banner">
+            <div class="banner-img img3"></div>
+            <div class="banner-text">
+                <h2>Trending<span>Clothing</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore?</p>
+                <p class="banner-btn"><a href="#">Contact us</a></p>
+            </div>
+        </div>
+       </div>
+    </header>
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.banner-area').slick({
+            autoplay: true,
+            Speed:800,
+            arrows:true,
+            dots:true,
+            cssEase: 'linear',
+            fade: true,
+            
+            }
+        });
+
+        if($('.slick-slide').hasClass(.slick-active){
+            
+        }
+    
+    </script>
+</body>
+</html>

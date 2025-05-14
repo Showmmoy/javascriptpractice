@@ -5,12 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript ideas</title>
     <link rel="icon" href="images/fav.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="vendor/wow-js/css/animate.css">
+    <link rel="stylesheet" href="vendor/dist/aos.css">
+    <link rel="stylesheet" href="css/percent-preloader.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
 </head>
+
+
+
 <body>
+  <div class="container text-center">
+    <h2>Calculator</h2>
+    <a href="calculator.html"><button class="btn btn-success">Click to Check Calculator</button></a>
+  </div>
+  <hr>
+  <div class="container text-center">
+    <h2>Progress Bar</h2>
+    <a href="progress.html"><button class="btn btn-success">Click to Check Progressbar</button></a>
+  </div>
+  <hr>
+  <div class="container text-center">
+    <h2>Tooltip</h2>
+    <a href="tooltip.html"><button class="btn btn-primary">Click to Check Tooltip</button></a>
+  </div>
+  <hr>
+  <div class="container text-center">
+    <h2>Date Picker</h2>
+    <a href="date.html"><button class="btn btn-success">Click to Check Date Picker</button></a>
+  </div>
+
+  <div class="preloader">
+  <div class="inner">
+    <span class="percentage"><span id="percentage">15</span>%</span>
+  </div>
+  <div class="loader-progress" id="loader-progress"> </div>
+  </div>
+  <hr>
+
+
+<div class="transition-overlay"></div>
+  <div class="container text-center">
+    <h2>Seamless Contenmt</h2>
+    <a href="seamless.html"><button class="btn btn-primary">Click to Check seamless</button></a>
+  </div>
+  <hr>
+
+
+
+  <div class="container text-center">
+    <h2>Seamless Contenmt</h2>
+    <a href="countdown.html"><button class="btn btn-primary">Click to Check countdown time</button></a>
+  </div>
+  <hr>
+
+  <div class="container text-center">
+    <h2>Countdown timer</h2>
+    <a href="countdown.html"><button class="btn btn-primary">Click to Check countdown time</button></a>
+  </div>
+  <hr>
+
+
+  <div class="container text-center">
+    <h2>Responsive team section design with Swip slider</h2>
+    <a href="swipe.html"><button class="btn btn-primary">Click to Check swipe</button></a>
+  </div>
+  <hr>
+
+  <div class="container text-center">
+    <h2>a 3D Stack Card Slider With jQuery And CSS3</h2>
+    <a href="slider.html"><button class="btn btn-primary" id="btn">Click to see the 3D Stack Card Slider</button></a>
+  </div>
+<hr>
+  <div class="container text-center">
+    <h2>A Slick slider demo</h2>
+    <a href="slick.html"><button class="btn btn-primary" id="slick">click to see the slick slider</button></a>
+  </div>
+  <hr>
+  
   <div class="container ">
     <div class="container text-center">
       <h2>Click the button to show the date</h2>
@@ -120,7 +196,185 @@
     </div>
     <hr>
 
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="draggable" class="ui-widget-content">
+            <p>Drag me around</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <form action="#">
+        <div class="mb-3">
+          <label for="topic" class="fomr-label">Enter a topic name you like the most:</label>
+          <input id="topic" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-info w-100">Submit</button>
+        </div>
+      </form>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="box text-center">
+            <h1>Completed Projects</h1>
+            <h2 class="counter">156</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="box text-center">
+            <h1>Happy Clients</h1>
+            <h2 class="counter">156</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="box text-center">
+            <h1>Clients Average Revenue Generated</h1>
+            <h2 class="counter">198,000</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <section class="wow slideInDown box bg-danger" data-wow-duration="2s" data-wow-delay="1s"></section>
+    <section class="wow slideInDown box bg-dark" data-wow-duration="2s" data-wow-delay="1s"></section>
+    <section class="wow slideInDown box bg-danger" data-wow-duration="2s" data-wow-delay="1s"></section>
+    <section class="wow slideInDown box bg-dark" data-wow-duration="2s" data-wow-delay="1s"></section>
+
+    <hr>
+
+    <div class="container mt=5">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="img" data-aos="zoom-in">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="img" data-aos="fade-up">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="img" data-aos="fade-up">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="img" data-aos="fade-up">
+            <img src="images/istockphoto-508030340-612x612.jpg" class="img-fluid" alt="cat">
+          </div>
+        </div>
+      </div>
+    </div>
+  <hr>
+  <div class="container">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/abc.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax.jpg"></div>
+  </div>
+
+<hr>
+
+    <div class="container">
+      <div id="text1"> Hm, looks like the wonderful arctext plugin. </div>
+    </div>
+
+    
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/preloder/percent-preloader.min.js"></script>
+    <script src="vendor/parallax.js-master/parallax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="vendor/counter-up-master/jquery.counterup.min.js"></script>
+    <script src="vendor/wow-js/js/wow.min.js"></script>
+    <script src="vendor/dist/aos.js"></script>
+
+    
+    <script src="vendor/jQuery-Plugin-For-Creating-Curved-Text-CurvedText/javascript/jquery.typorize.min.js"  ></script>
+    <script src="vendor/jQuery-Plugin-For-Creating-Curved-Text-CurvedText/javascript/jquery.curvedtext.min.js"></script>
+    
+    
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>

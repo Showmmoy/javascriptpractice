@@ -7,3 +7,27 @@
     padding: 10px 20px;
     background-color: lightcoral;
 }
+
+#draggable { 
+    background-color: lightblue;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
+
+.box{
+    height: 600px;
+    
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+#text1
+{
+    overflow:         hidden;
+    color:            #ffffff;
+    background-color: #3fafee;
+}
